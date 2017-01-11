@@ -2,6 +2,7 @@
  * IMPORT EACH COMPONENT
  */
 import alert from './alert'
+import badge from './badge'
 import breadcrumb from './breadcrumb'
 import buttonGroup from './button-group'
 import buttons from './buttons'
@@ -21,11 +22,11 @@ import pagination from './pagination'
 import popover from './popover'
 import progress from './progress'
 import tables from './tables'
-import tags from './tags'
 import tooltip from './tooltip'
 
 const vuestrap = {
 	alert,
+    badge,
 	breadcrumb,
 	buttonGroup,
 	buttons,
@@ -45,7 +46,6 @@ const vuestrap = {
 	popover,
 	progress,
 	tables,
-	tags,
 	tooltip,
 }
 
